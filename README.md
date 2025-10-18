@@ -2,7 +2,7 @@
 
 INDEX
 
-1. [ ] [Creational Patterns](#1-creational-patterns)
+1. [x] [Creational Patterns](#1-creational-patterns)
       - [x] [a. Singleton](#a-singleton)
       - [x] [b. Factory](#b-factory)
       - [x] [c. Abstract Factory](#c-abstract-factory)
