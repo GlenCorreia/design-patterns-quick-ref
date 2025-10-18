@@ -4,10 +4,10 @@ INDEX
 
 1. [ ] [Creational Patterns](#1-creational-patterns)
       - [x] [a. Singleton](#a-singleton)
-      - [ ] [b. Factory](#b-factory)
-      - [ ] [c. Abstract Factory](#c-abstract-factory)
-      - [ ] [d. Builder](#d-builder)
-      - [ ] [e. Prototype](#e-prototype)
+      - [x] [b. Factory](#b-factory)
+      - [x] [c. Abstract Factory](#c-abstract-factory)
+      - [x] [d. Builder](#d-builder)
+      - [x] [e. Prototype](#e-prototype)
   2. [Structural Patterns](#2-structural-patterns)
       - [ ] [a. Decorator](#a-decorator)
       - [ ] [b. Adapter](#b-adapter)
@@ -98,6 +98,8 @@ logger2 = Logger.instance
 
 logger1.log("System initialized.")
 puts logger1 == logger2  # => true
+
+logger3 = Logger.new # Raises NoMethodError
 
 # Any attempt to use Logger.new will raise an error.
 ```
